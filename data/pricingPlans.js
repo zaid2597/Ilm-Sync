@@ -1,0 +1,1 @@
+// Static data - pricing plans
