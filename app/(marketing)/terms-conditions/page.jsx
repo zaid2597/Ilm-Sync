@@ -77,7 +77,7 @@ export default function TermsConditionsPage() {
 
           <p className="mt-8 text-base leading-relaxed text-slate-600">
             These Terms & Conditions govern the use of Ilm Sync by schools
-            and madrasas. Please read them carefully before using the
+            and Colleges. Please read them carefully before using the
             platform.
           </p>
 

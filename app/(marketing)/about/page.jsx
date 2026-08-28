@@ -1,14 +1,17 @@
+"use client";
+
 import { Target, Heart, Users, ShieldCheck, ArrowRight } from "lucide-react";
 import Container from "@/components/shared/Container";
 import SectionHeading from "@/components/shared/SectionHeading";
 import Button from "@/components/ui/Button";
+import TeamSection from "@/components/contact/TeamSection";
 
 const values = [
   {
     icon: Target,
     title: "Our Mission",
     description:
-      "To remove the administrative burden from schools and madrasas so educators can focus on what matters most — teaching.",
+      "To remove the administrative burden from schools and Colleges so educators can focus on what matters most — teaching.",
   },
   {
     icon: Heart,
@@ -20,7 +23,7 @@ const values = [
     icon: Users,
     title: "For Every Institute",
     description:
-      "From single-campus academies to multi-branch school systems and madrasas, Ilm Sync scales with you.",
+      "From single-campus academies to multi-branch school systems and Colleges, Ilm Sync scales with you.",
   },
   {
     icon: ShieldCheck,
@@ -49,7 +52,7 @@ export default function AboutPage() {
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-slate-600">
               Ilm Sync started with a simple observation: schools and
-              madrasas were spending more time on paperwork than on
+              Colleges were spending more time on paperwork than on
               education. We set out to fix that.
             </p>
           </div>
@@ -65,7 +68,7 @@ export default function AboutPage() {
                 Why we built Ilm Sync
               </h2>
               <p className="text-slate-600 leading-relaxed">
-                Across Pakistan, thousands of schools and madrasas still rely
+                Across Pakistan, thousands of schools and Colleges still rely
                 on paper registers, scattered spreadsheets, and WhatsApp
                 groups to manage attendance, fees, and communication with
                 parents. This leads to lost records, delayed fee collection,
@@ -75,7 +78,7 @@ export default function AboutPage() {
               <p className="text-slate-600 leading-relaxed">
                 We built Ilm Sync to bring all of this into one connected,
                 easy-to-use system — designed specifically for the way
-                schools and madrasas in Pakistan actually operate.
+                schools and Colleges in Pakistan actually operate.
               </p>
               <div className="pt-2">
                 <Button href="/request-demo" icon={ArrowRight}>
@@ -87,25 +90,25 @@ export default function AboutPage() {
             <div className="rounded-2xl bg-brand-50 p-8 ring-1 ring-brand-100">
               <div className="grid grid-cols-2 gap-6">
                 <div>
-                  <p className="text-3xl font-bold text-brand-700">500+</p>
+                  <p className="text-3xl font-bold text-brand-700">50+</p>
                   <p className="mt-1 text-sm text-slate-600">
-                    Schools & Madrasas
+                    Schools & Colleges
                   </p>
                 </div>
                 <div>
-                  <p className="text-3xl font-bold text-brand-700">250K+</p>
+                  <p className="text-3xl font-bold text-brand-700">10K+</p>
                   <p className="mt-1 text-sm text-slate-600">
                     Students Managed
                   </p>
                 </div>
                 <div>
-                  <p className="text-3xl font-bold text-brand-700">18K+</p>
+                  <p className="text-3xl font-bold text-brand-700">1K+</p>
                   <p className="mt-1 text-sm text-slate-600">
                     Teachers Active
                   </p>
                 </div>
                 <div>
-                  <p className="text-3xl font-bold text-brand-700">6+</p>
+                  <p className="text-3xl font-bold text-brand-700">3+</p>
                   <p className="mt-1 text-sm text-slate-600">
                     Years of Service
                   </p>
@@ -145,6 +148,9 @@ export default function AboutPage() {
           </div>
         </Container>
       </section>
+
+      {/* Team Section */}
+      <TeamSection />
     </>
   );
 }

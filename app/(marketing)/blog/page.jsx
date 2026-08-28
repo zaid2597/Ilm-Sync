@@ -23,10 +23,10 @@ const blogPosts = [
     author: "Ilm Sync Team",
   },
   {
-    slug: "digitizing-attendance-for-madrasas",
-    title: "Digitizing Attendance Tracking for Madrasas",
+    slug: "digitizing-attendance-for-Colleges",
+    title: "Digitizing Attendance Tracking for Colleges",
     excerpt:
-      "Madrasas have unique attendance needs. Here&apos;s how digital attendance systems can be adapted for Islamic educational institutions.",
+      "Colleges have unique attendance needs. Here&apos;s how digital attendance systems can be adapted for Islamic educational institutions.",
     category: "Madrasa Management",
     date: "May 14, 2026",
     author: "Ilm Sync Team",
@@ -71,7 +71,7 @@ export default function BlogPage() {
         <SectionHeading
           eyebrow="Blog"
           title="Insights for modern school administration"
-          description="Tips, guides, and stories to help schools and madrasas run more smoothly."
+          description="Tips, guides, and stories to help schools and Colleges run more smoothly."
         />
 
         <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">

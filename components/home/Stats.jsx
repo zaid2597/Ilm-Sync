@@ -7,22 +7,22 @@ import Container from "@/components/shared/Container";
 const stats = [
   {
     icon: School,
-    value: "500+",
-    label: "Schools & Madrasas",
+    value: "50+",
+    label: "Schools & Colleges",
   },
   {
     icon: Users,
-    value: "250K+",
+    value: "10K+",
     label: "Students Managed",
   },
   {
     icon: GraduationCap,
-    value: "18K+",
+    value: "1K+",
     label: "Teachers Active",
   },
   {
     icon: Clock,
-    value: "6+",
+    value: "3+",
     label: "Years Serving Institutes",
   },
 ];
@@ -73,13 +73,11 @@ function StatCard({ icon: Icon, value, label, index, isVisible }) {
 
   return (
     <div
-      className={`group flex flex-col items-center gap-3 px-4 py-6 text-center transition-all duration-700 ease-out sm:py-2 ${
-        index === 0 ? "sm:pl-0" : ""
-      } ${index === stats.length - 1 ? "sm:pr-0" : ""} ${
-        isVisible
+      className={`group flex flex-col items-center gap-3 px-4 py-6 text-center transition-all duration-700 ease-out sm:py-2 ${index === 0 ? "sm:pl-0" : ""
+        } ${index === stats.length - 1 ? "sm:pr-0" : ""} ${isVisible
           ? "translate-y-0 opacity-100"
           : "translate-y-6 opacity-0"
-      }`}
+        }`}
       style={{ transitionDelay: isVisible ? `${index * 120}ms` : "0ms" }}
     >
       <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/5 ring-1 ring-white/10 transition-all duration-300 group-hover:scale-110 group-hover:bg-brand-600 group-hover:ring-brand-500">
@@ -135,9 +133,8 @@ export default function Stats() {
 
       <Container>
         <div
-          className={`relative mb-10 text-center transition-all duration-700 ease-out sm:mb-14 ${
-            isVisible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
-          }`}
+          className={`relative mb-10 text-center transition-all duration-700 ease-out sm:mb-14 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
+            }`}
         >
           <span className="text-xs font-semibold uppercase tracking-widest text-brand-300">
             Trusted at Scale

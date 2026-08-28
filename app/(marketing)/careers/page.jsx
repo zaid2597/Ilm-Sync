@@ -70,7 +70,7 @@ export default function CareersPage() {
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-slate-600">
               We&apos;re a small team building tools that hundreds of schools
-              and madrasas depend on every day. Join us.
+              and Colleges depend on every day. Join us.
             </p>
           </div>
         </Container>

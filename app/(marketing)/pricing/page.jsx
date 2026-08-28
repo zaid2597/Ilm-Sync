@@ -40,7 +40,7 @@ const plans = [
     name: "Premium",
     monthly: null,
     annual: null,
-    description: "For multi-campus school systems and madrasas.",
+    description: "For multi-campus school systems and Colleges.",
     highlighted: false,
     features: [
       "Unlimited students",
@@ -82,24 +82,21 @@ export default function PricingPage() {
               <button
                 type="button"
                 onClick={() => setAnnual(false)}
-                className={`rounded-full px-4 py-2 text-sm font-semibold transition-colors duration-200 ${
-                  !annual ? "bg-brand-600 text-white" : "text-slate-500"
-                }`}
+                className={`rounded-full px-4 py-2 text-sm font-semibold transition-colors duration-200 ${!annual ? "bg-brand-600 text-white" : "text-slate-500"
+                  }`}
               >
                 Monthly
               </button>
               <button
                 type="button"
                 onClick={() => setAnnual(true)}
-                className={`flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition-colors duration-200 ${
-                  annual ? "bg-brand-600 text-white" : "text-slate-500"
-                }`}
+                className={`flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition-colors duration-200 ${annual ? "bg-brand-600 text-white" : "text-slate-500"
+                  }`}
               >
                 Annual
                 <span
-                  className={`rounded-full px-2 py-0.5 text-xs font-bold ${
-                    annual ? "bg-white/20 text-white" : "bg-brand-50 text-brand-700"
-                  }`}
+                  className={`rounded-full px-2 py-0.5 text-xs font-bold ${annual ? "bg-white/20 text-white" : "bg-brand-50 text-brand-700"
+                    }`}
                 >
                   Save 15%
                 </span>

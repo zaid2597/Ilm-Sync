@@ -18,9 +18,9 @@ const faqs = [
       "Yes. You can import records from Excel or your existing register format. Our onboarding team helps map your data correctly during setup.",
   },
   {
-    question: "Does Ilm Sync work for madrasas as well as schools?",
+    question: "Does Ilm Sync work for Colleges as well as schools?",
     answer:
-      "Yes, Ilm Sync is built to support both standard schools and madrasas, including features tailored to Islamic studies curriculum tracking.",
+      "Yes, Ilm Sync is built to support both standard schools and Colleges, including features tailored to Islamic studies curriculum tracking.",
   },
   {
     question: "Is there a mobile app for parents?",
@@ -78,9 +78,8 @@ export default function FAQsPage() {
                     {faq.question}
                   </span>
                   <ChevronDown
-                    className={`h-5 w-5 shrink-0 text-brand-600 transition-transform duration-200 ${
-                      isOpen ? "rotate-180" : ""
-                    }`}
+                    className={`h-5 w-5 shrink-0 text-brand-600 transition-transform duration-200 ${isOpen ? "rotate-180" : ""
+                      }`}
                   />
                 </button>
                 {isOpen && (

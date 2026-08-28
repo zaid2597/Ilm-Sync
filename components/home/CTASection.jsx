@@ -20,7 +20,7 @@ export default function CTASection() {
             Ready to simplify your school&apos;s daily operations?
           </h2>
           <p className="max-w-xl text-brand-100">
-            Join hundreds of schools and madrasas already running attendance,
+            Join hundreds of schools and Colleges already running attendance,
             fees, and communication on Ilm Sync — free setup included.
           </p>
 

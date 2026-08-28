@@ -74,7 +74,7 @@ export default function PrivacyPolicyPage() {
 
           <p className="mt-8 text-base leading-relaxed text-slate-600">
             This Privacy Policy explains how Ilm Sync collects, uses, and
-            protects information when schools and madrasas use our platform
+            protects information when schools and Colleges use our platform
             to manage attendance, fees, results, and communication.
           </p>
 

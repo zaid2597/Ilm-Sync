@@ -31,15 +31,15 @@ export const blogPosts = [
     ],
   },
   {
-    slug: "digitizing-attendance-for-madrasas",
-    title: "Digitizing Attendance Tracking for Madrasas",
+    slug: "digitizing-attendance-for-Colleges",
+    title: "Digitizing Attendance Tracking for Colleges",
     excerpt:
-      "Madrasas have unique attendance needs. Here's how digital attendance systems can be adapted for Islamic educational institutions.",
+      "Colleges have unique attendance needs. Here's how digital attendance systems can be adapted for Islamic educational institutions.",
     category: "Madrasa Management",
     date: "May 14, 2026",
     author: "Ilm Sync Team",
     content: [
-      "Madrasas often track attendance differently from standard schools, including separate sessions for Hifz, Nazra, and general studies classes.",
+      "Colleges often track attendance differently from standard schools, including separate sessions for Hifz, Nazra, and general studies classes.",
       "A flexible digital attendance system can accommodate these multiple session types, giving administrators a clear picture of each student's participation across all classes.",
       "This also makes it easier to generate reports for parents and boards, showing consistent attendance records without relying on handwritten registers.",
     ],

@@ -84,7 +84,7 @@ export default function Hero() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-400 opacity-75" />
                 <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-brand-600" />
               </span>
-              Now live in 500+ schools across Pakistan
+              Now live in 50+ schools across Pakistan
             </span>
 
             <h1 className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold leading-[1.08] tracking-tight text-slate-900">
@@ -98,7 +98,7 @@ export default function Hero() {
             <p className="max-w-xl text-lg leading-relaxed text-slate-600">
               Ilm Sync brings attendance, fees, results, and parent
               communication into a single easy-to-use system — built for
-              schools and madrasas that want less paperwork and more clarity.
+              schools and Colleges that want less paperwork and more clarity.
             </p>
 
             <div className="flex flex-col gap-4 sm:flex-row">
@@ -133,7 +133,7 @@ export default function Hero() {
                   <span className="ml-1.5 text-sm font-semibold text-slate-900">4.9/5</span>
                 </div>
                 <p className="text-xs text-slate-500">
-                  from 500+ schools & madrasas
+                  from 50+ schools & Colleges
                 </p>
               </div>
             </div>
@@ -160,13 +160,12 @@ export default function Hero() {
                 {slides.map((slide, index) => (
                   <div
                     key={slide.label}
-                    className={`absolute inset-0 p-5 transition-all duration-500 ease-out ${
-                      index === active
-                        ? "translate-x-0 opacity-100"
-                        : index < active
+                    className={`absolute inset-0 p-5 transition-all duration-500 ease-out ${index === active
+                      ? "translate-x-0 opacity-100"
+                      : index < active
                         ? "-translate-x-4 opacity-0"
                         : "translate-x-4 opacity-0"
-                    }`}
+                      }`}
                   >
                     <div className="flex items-center justify-between border-b border-slate-100 pb-4">
                       <div>
@@ -223,9 +222,8 @@ export default function Hero() {
                     type="button"
                     aria-label={`Show ${slide.label}`}
                     onClick={() => setActive(index)}
-                    className={`h-1.5 rounded-full transition-all duration-300 ${
-                      index === active ? "w-6 bg-brand-600" : "w-1.5 bg-slate-200"
-                    }`}
+                    className={`h-1.5 rounded-full transition-all duration-300 ${index === active ? "w-6 bg-brand-600" : "w-1.5 bg-slate-200"
+                      }`}
                   />
                 ))}
               </div>
